@@ -1,0 +1,244 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": "u101",
+        "username": "sunny_days",
+        "profilePic": "http://localhost:3000/assets/sunny.jpeg"
+      },
+      "image": "http://localhost:3000/assets/beach.jpeg",
+      "caption": "Sunshine and beach vibes! 🌞🌊 #Nature #Cool",
+      "likes": 120,
+      "comments": [
+        {
+          "userId": "u102",
+          "username": "cool_guy99",
+          "profilePic": "http://localhost:3000/assets/cool.jpeg",
+          "comment": "Awesome shot!"
+        },
+        {
+          "userId": "u104",
+          "username": "nature_lover",
+          "profilePic": "http://localhost:3000/assets/nature.jpeg",
+          "comment": "Wish I was there 😍"
+        }
+      ],
+      "timestamp": "2025-06-07T10:45:00Z",
+      "location": "Goa, India"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": "u102",
+        "username": "cool_guy99",
+        "profilePic": "http://localhost:3000/assets/hot.jpeg"
+      },
+      "image": "http://localhost:3000/assets/mountain.jpeg",
+      "caption": "Reached the summit 🏔️💪 #Dedication #NeverGiveUp",
+      "likes": 45,
+      "comments": [
+        {
+          "userId": "u101",
+          "username": "sunny_days",
+          "profilePic": "http://localhost:3000/assets/sun.jpeg",
+          "comment": "What a view!"
+        }
+      ],
+      "timestamp": "2025-06-06T14:30:00Z",
+      "location": "Manali, India"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": "u105",
+        "username": "foodie_life",
+        "profilePic": "http://localhost:3000/assets/foodie.jpeg"
+      },
+      "image": "http://localhost:3000/assets/food.jpeg",
+      "caption": "Tried this amazing street food today 🍜🤤 #Tasty #Foodie",
+      "likes": 87,
+      "comments": [
+        {
+          "userId": "u103",
+          "username": "travel_bae",
+          "profilePic": "http://localhost:3000/assets/travel.jpeg",
+          "comment": "Looks so tasty!"
+        }
+      ],
+      "timestamp": "2025-06-05T20:15:00Z",
+      "location": "Mumbai, India"
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "101",
+      "username": "adventure_ace",
+      "fullName": "Rohan Mehta",
+      "profilePic": "http://localhost:3000/assets/adventure.jpeg",
+      "bio": "Lover of treks, trails & travel 🌍",
+      "mutualFollowers": [
+        "cool_guy99"
+      ],
+      "isFollowing": false
+    },
+    {
+      "id": "102",
+      "username": "artistic_mind",
+      "fullName": "Sneha Kapoor",
+      "profilePic": "http://localhost:3000/assets/artist.jpeg",
+      "bio": "Spreading colors & smiles 🎨✨",
+      "mutualFollowers": [
+        "nature_lover"
+      ],
+      "isFollowing": false
+    },
+    {
+      "id": "103",
+      "username": "code_cracker",
+      "fullName": "Arjun Nair",
+      "profilePic": "http://localhost:3000/assets/coder.jpeg",
+      "bio": "Tech geek | Web Dev 💻🔧",
+      "mutualFollowers": [
+        "foodie_life"
+      ],
+      "isFollowing": false
+    },
+    {
+      "id": "104",
+      "username": "fashion_curve",
+      "fullName": "Tanya Rao",
+      "profilePic": "http://localhost:3000/assets/fashion.jpeg",
+      "bio": "Fashion is my language 💃👗",
+      "mutualFollowers": [
+        "travel_bae",
+        "sunny_days"
+      ],
+      "isFollowing": false
+    },
+    {
+      "id": "105",
+      "username": "plant_peace",
+      "fullName": "Dev Sharma",
+      "profilePic": "http://localhost:3000/assets/plant.jpeg",
+      "bio": "Green thumb 🌱 | Nature first 🍃",
+      "mutualFollowers": [
+        "cool_suresh71"
+      ],
+      "isFollowing": false
+    }
+  ],
+  "profile": {
+    "id": "01",
+    "username": "Rahul Kaushik",
+    "insta_id": "rsk.2122",
+    "profile_pic": "http://localhost:3000/assets/me.jpeg"
+  },
+  "stories": [
+    {
+      "id": "1",
+      "user": {
+        "id": "u101",
+        "username": "sunny_days",
+        "profilePic": "http://localhost:3000/assets/sunny.jpeg"
+      },
+      "storyImage": "http://localhost:3000/assets/sunny_story1.jpeg",
+      "timestamp": "2025-06-07T08:00:00Z",
+      "viewed": false
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": "u102",
+        "username": "cool_guy99",
+        "profilePic": "http://localhost:3000/assets/cool.jpeg"
+      },
+      "storyImage": "http://localhost:3000/assets/cool_story1.jpeg",
+      "timestamp": "2025-06-07T07:30:00Z",
+      "viewed": true
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": "u103",
+        "username": "travel_bae",
+        "profilePic": "http://localhost:3000/assets/travel.jpeg"
+      },
+      "storyImage": "http://localhost:3000/assets/travel_story1.jpeg",
+      "timestamp": "2025-06-07T06:00:00Z",
+      "viewed": false
+    },
+    {
+      "id": "4",
+      "user": {
+        "id": "u104",
+        "username": "nature_lover",
+        "profilePic": "http://localhost:3000/assets/nature.jpeg"
+      },
+      "storyImage": "http://localhost:3000/assets/nature_story1.jpeg",
+      "timestamp": "2025-06-07T05:45:00Z",
+      "viewed": true
+    },
+    {
+      "id": "5",
+      "user": {
+        "id": "u105",
+        "username": "foodie_life",
+        "profilePic": "http://localhost:3000/assets/foodie.jpeg"
+      },
+      "storyImage": "http://localhost:3000/assets/foodie_story1.jpeg",
+      "timestamp": "2025-06-07T04:15:00Z",
+      "viewed": false
+    },
+    {
+      "id": "6",
+      "user": {
+        "id": "u106",
+        "username": "book_buff",
+        "profilePic": "http://localhost:3000/assets/book.jpeg"
+      },
+      "storyImage": "http://localhost:3000/assets/book_story1.jpeg",
+      "timestamp": "2025-06-07T03:00:00Z",
+      "viewed": true
+    },
+    {
+      "id": "7",
+      "user": {
+        "id": "u107",
+        "username": "fit_freak",
+        "profilePic": "http://localhost:3000/assets/fit.jpeg"
+      },
+      "storyImage": "http://localhost:3000/assets/fit_story1.jpeg",
+      "timestamp": "2025-06-07T02:30:00Z",
+      "viewed": false
+    },
+    {
+      "id": "8",
+      "user": {
+        "id": "u108",
+        "username": "music_maniac",
+        "profilePic": "http://localhost:3000/assets/music.jpeg"
+      },
+      "storyImage": "http://localhost:3000/assets/music_story1.jpeg",
+      "timestamp": "2025-06-07T01:50:00Z",
+      "viewed": false
+    }
+  ],
+  "Following": [
+    {
+      "id": "105",
+      "username": "plant_peace",
+      "fullName": "Dev Sharma",
+      "profilePic": "http://localhost:3000/assets/plant.jpeg",
+      "bio": "Green thumb 🌱 | Nature first 🍃"
+    },
+    {
+      "id": "101",
+      "username": "adventure_ace"
+    },
+    {
+      "id": "103",
+      "username": "code_cracker"
+    }
+  ]
+}
